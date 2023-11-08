@@ -107,5 +107,19 @@ const updateTimer = () => {
     timerDisplay.textContent = `Time: ${currentTime}s`;
 };
 
-
+// function to reset the game 
+const resetGame = () => {
+    gameStarted = false;
+    generateCardValues();
+    updateGrid();
+    moves = 0;
+    movesDisplay.textContent = "Moves: 0";
+    clearInterval(timerInterval);
+    timerDisplay.textContent = `Time: 0s`;
+    const cards = document.querySelectorAll(".card");
+    cards.forEach((card) => {
+        card.classList.remove("open");
+        card.classList.remove("match");
+    });
+};
 createGrid();
