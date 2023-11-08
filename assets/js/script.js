@@ -100,4 +100,12 @@ const startTimer = () => {
     clearInterval(timerInterval);
     timerInterval = setInterval(updateTimer, 1000);
 };
+
+//function to update the game timer
+const updateTimer = () => {
+    const currentTime = Math.floor((Date.now() - startTime) / 1000);
+    timerDisplay.textContent = `Time: ${currentTime}s`;
+};
+
+
 createGrid();
