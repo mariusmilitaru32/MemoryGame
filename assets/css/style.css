@@ -103,3 +103,26 @@ body {
 #moves, #timer {
     flex: 1;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background: #282A3A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18pt;
+    box-shadow: 5px 3px 15px 1px darkblue;
+    transition: all 0.5s;
+    margin: 0 10px; 
+}
+
+.button-container button:hover {
+    color: #fc7900;
+}
