@@ -41,3 +41,4 @@ const createGrid = () => {
         gridContainer.appendChild(card);
     }
 };
+
