@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="game-container">
+        <a href="./index.html"><button id="start-button">Home</button></a>
+        <div id="confirmation-message" style="display: none;"></div>
+        <form onsubmit="return sendMail(this);" method="POST">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="message" class="feedback-input" placeholder="Your message"></textarea>
+            <button class="submitBtn" id="tip-btn" type="submit">Submit</button>
+          </form>
+        
+    </div> 
 </body>
 </html>
