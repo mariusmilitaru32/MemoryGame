@@ -1,3 +1,4 @@
+// the code is from code institute and adapted with redirect and confirmation message
 function sendMail(contactForm) {
     let submitBtn = document.getElementById("tip-btn");
     let startButton = document.getElementById("start-button");
