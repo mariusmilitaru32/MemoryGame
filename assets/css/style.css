@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* Style for cards grid and game container */
 .game-container {
     position: relative;
     background-color: #fff;
@@ -208,4 +209,53 @@ p {
 }
   
 /* End of CodePen window code */
+
+/* Contact form code adapted from CodePen  */
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(7, 6, 6);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+    background: #282A3A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18pt;
+    box-shadow: 5px 3px 15px 1px darkblue;
+    transition: all 0.5s;
+}
+
+[type="submit"]:hover { background:#CC4949; }
+
+ol li{
+    text-align: left;
+}
+
+/* End of CodePen contact form */
 
