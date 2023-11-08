@@ -13,6 +13,28 @@ function sendMmail (contactForm) {
         "from_email": contactForm.email.value,
         "message": contactForm.message.value
     })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+            // Update the confirmation message
+            confirmationParagraph.textContent = "Email has been sent successfully! Thank you";
+            confirmationParagraph.style.display = "block";
+            // Set up a countdown timer to automatically redirect to the home page after 10 seconds
+            let countdown = 10;
+            let countdownTimer = setInterval(function() {
+                if (countdown === 0) {
+                    clearInterval(countdownTimer);
+                    window.location.href = "index.html";
+                } else {
+                    confirmationParagraph.textContent = `Redirecting you to home page in ${countdown} seconds!`;
+                    countdown--;
+                }
+            }, 1000);
+        },
+        function(error) {
+            console.log("FAILED", error);
+            submitBtn.disabled = false;
+        });
 
-
+    return false;
 }  
