@@ -70,4 +70,19 @@ const checkMatch = () => {
     openCards = [];
 };
 
+// function to start the game
+const startGame = () => {
+    gameStarted = true;
+    generateCardValues();
+    updateGrid();
+    moves = 0;
+    movesDisplay.textContent = "Moves: 0";
+    startTimer();
+    const cards = document.querySelectorAll(".card");
+    cards.forEach((card) => {
+        card.classList.remove("open");
+        card.classList.remove("match");
+    });
+};
+
 createGrid();
