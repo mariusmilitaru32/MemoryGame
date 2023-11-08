@@ -94,4 +94,10 @@ const updateGrid = () => {
     });
 };
 
+// function to start the timer 
+const startTimer = () => {
+    startTime = Date.now();
+    clearInterval(timerInterval);
+    timerInterval = setInterval(updateTimer, 1000);
+};
 createGrid();
