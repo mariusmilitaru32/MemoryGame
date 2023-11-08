@@ -41,3 +41,11 @@ body {
     box-shadow: 5px 3px 15px 1px darkblue;
     transition: all 0.5s;
 }
+
+#reset-button:hover {
+    color:#fc7900;
+}
+
+#start-button:hover {
+    color:#fc7900;
+}
