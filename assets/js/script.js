@@ -56,3 +56,4 @@ const onCardClick = (card) => {
     }
 };
 
+createGrid();
