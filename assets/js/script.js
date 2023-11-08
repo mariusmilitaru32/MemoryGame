@@ -142,5 +142,7 @@ document.querySelectorAll("#tip-btn").forEach((element) => {
     });
 });
 
-
+generateCardValues();
 createGrid();
+resetButton.addEventListener("click", resetGame);
+startButton.addEventListener("click", startGame);
