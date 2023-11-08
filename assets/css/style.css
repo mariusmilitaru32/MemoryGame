@@ -17,3 +17,15 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+#start-button {
+    background: #282A3A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18pt;
+    box-shadow: 5px 3px 15px 1px darkblue;
+    transition: all 0.5s;
+}
