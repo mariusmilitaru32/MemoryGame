@@ -8,6 +8,11 @@ function sendMmail (contactForm) {
     // Disable the submit button to prevent multiple submissions
     submitBtn.disabled = true;
 
+    emailjs.send("service_1paqb38", "template_78ha4ee", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "message": contactForm.message.value
+    })
 
 
 }  
