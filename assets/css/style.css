@@ -8,3 +8,12 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+.game-container {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 3px 15px 1px darkblue;
+    text-align: center;
+    padding: 20px;
+}
