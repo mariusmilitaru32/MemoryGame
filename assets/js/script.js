@@ -1,4 +1,4 @@
-// variables to get game elements 
+// variables to get game elements
 const gridContainer = document.querySelector(".grid");
 const startButton = document.getElementById("start-button");
 const movesDisplay = document.getElementById("moves");
@@ -94,7 +94,7 @@ const updateGrid = () => {
     });
 };
 
-// function to start the timer 
+// function to start the timer
 const startTimer = () => {
     startTime = Date.now();
     clearInterval(timerInterval);
