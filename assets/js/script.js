@@ -56,4 +56,18 @@ const onCardClick = (card) => {
     }
 };
 
+// function to check if the cards are a match
+const checkMatch = () => {
+    const [card1, card2] = openCards;
+    if (card1.dataset.symbol === card2.dataset.symbol) {
+        card1.classList.add("match");
+        card2.classList.add("match");
+        gameFinished();
+    } else {
+        card1.classList.remove("open");
+        card2.classList.remove("open");
+    }
+    openCards = [];
+};
+
 createGrid();
