@@ -57,6 +57,7 @@ body {
     margin-top: 20px;
 }
 
+ /*styling cards code when open and clicked  */
 .card {
     width: 100px;
     height: 100px;
@@ -126,3 +127,80 @@ body {
 .button-container button:hover {
     color: #fc7900;
 }
+
+/* Code found on CodePen for the How to play window. Has been adapted for my needs */
+
+h2 {
+    color: #007fed;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+  
+p {
+    color: #001818;
+    
+}
+  
+.wrap {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 85px;
+    left: 0;
+    padding: 20px 50px;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.5s;
+    visibility: hidden;
+}
+
+.wrap .content {
+    opacity: 0;
+}
+  
+.wrap:before {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: white;
+    content: "";
+    bottom: 20px;
+    left: 60%;
+    top: 95%;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 800ms cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+  
+.wrap.active {
+    display: block;
+    visibility: visible;
+    box-shadow: 2px 3px 16px silver;
+
+}
+
+.wrap.active:before {
+    height: 2000px;
+    width: 2000px;
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    margin-left: -1000px;
+    margin-top: -1000px;
+    display: block;
+    transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  
+}
+  
+.wrap.active .content {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  
+}
+  
+/* End of CodePen window code */
