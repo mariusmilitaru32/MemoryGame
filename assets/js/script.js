@@ -85,4 +85,13 @@ const startGame = () => {
     });
 };
 
+// function to update the cards with symbols
+const updateGrid = () => {
+    const cards = document.querySelectorAll(".card");
+    cards.forEach((card, i) => {
+        card.dataset.symbol = cardValues[i];
+        card.textContent = cardValues[i];
+    });
+};
+
 createGrid();
