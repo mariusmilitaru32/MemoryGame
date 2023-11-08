@@ -1,10 +1,10 @@
-// the email function is from Code institute and adapted for my needs
-function sendMmail(contactForm) {
+function sendMail(contactForm) {
     let submitBtn = document.getElementById("tip-btn");
     let startButton = document.getElementById("start-button");
     let confirmationParagraph = document.createElement("p");
     confirmationParagraph.style.display = "none"; 
     startButton.parentNode.appendChild(confirmationParagraph);
+
     // Disable the submit button to prevent multiple submissions
     submitBtn.disabled = true;
 
@@ -24,7 +24,7 @@ function sendMmail(contactForm) {
             let countdownTimer = setInterval(function() {
                 if (countdown === 0) {
                     clearInterval(countdownTimer);
-                    window.location.href = "index.html";
+                    window.location.href = "./index.html";
                 } else {
                     confirmationParagraph.textContent = `Redirecting you to home page in ${countdown} seconds!`;
                     countdown--;
@@ -37,4 +37,4 @@ function sendMmail(contactForm) {
         });
 
     return false;
-}  
+}
