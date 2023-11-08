@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Memory Card Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
@@ -16,7 +16,6 @@
 </head>
 <body>
     <div class="game-container">
-        <!-- contact form -->
         <a href="./index.html"><button id="start-button">Home</button></a>
         <div id="confirmation-message" style="display: none;"></div>
         <form onsubmit="return sendMail(this);" method="POST">      
@@ -25,7 +24,8 @@
             <textarea name="message" class="feedback-input" placeholder="Your message"></textarea>
             <button class="submitBtn" id="tip-btn" type="submit">Submit</button>
           </form>
-    </div> 
-    <script src="assets/js/email.js"></script>
+        
+    </div>
+    <script src="./assets/js/email.js"></script>
 </body>
 </html>
