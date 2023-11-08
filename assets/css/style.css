@@ -294,3 +294,20 @@ ol li{
         font-size: 18px;
     }
 }
+
+@media (max-width: 320px){
+    .card {
+        width: 60px;
+        height: 70px;
+        font-size: 20px;
+    }
+    body {
+        padding: 10px;
+    }
+
+    .game-container {
+        padding: 5px;
+    }
+
+
+}
