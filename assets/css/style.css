@@ -92,3 +92,14 @@ body {
 .card.open::before, .card.match::before {
     display: none;
 }
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#moves, #timer {
+    flex: 1;
+}
