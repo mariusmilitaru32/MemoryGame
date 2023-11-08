@@ -71,3 +71,24 @@ body {
     transition: background-color 0.3s ease-in-out;
     position: relative; 
 }
+
+.card::before {
+    content: "";
+    background-color: #03071e;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card.open, .card.match {
+    background-color: #2ecc71;
+    cursor: default;
+}
+
+.card.open::before, .card.match::before {
+    display: none;
+}
