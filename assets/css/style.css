@@ -259,3 +259,26 @@ ol li{
 
 /* End of CodePen contact form */
 
+/* media css code for different screen sizes*/
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .game-container {
+        padding: 10px;
+        
+    }
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+}
