@@ -272,10 +272,6 @@ ol li{
         
     }
 
-    .grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
     .card {
         width: 80px;
         height: 80px;
