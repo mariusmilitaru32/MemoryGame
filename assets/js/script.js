@@ -42,3 +42,17 @@ const createGrid = () => {
     }
 };
 
+// function to open cards and count the moves
+const onCardClick = (card) => {
+    if (!gameStarted) return;
+    if (openCards.length < 2 && !card.classList.contains("open")) {
+        card.classList.add("open");
+        openCards.push(card);
+        if (openCards.length === 2) {
+            setTimeout(checkMatch, 1000);
+            moves++;
+            movesDisplay.textContent = `Moves: ${moves}`;
+        }
+    }
+};
+
