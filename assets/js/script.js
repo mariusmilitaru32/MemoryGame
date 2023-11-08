@@ -122,4 +122,14 @@ const resetGame = () => {
         card.classList.remove("match");
     });
 };
+
+//function to get alert message when all the cards have been matched
+const gameFinished = () => {
+    const matchedCards = document.querySelectorAll(".card.match");
+    if (matchedCards.length === cardValues.length) {
+        clearInterval(timerInterval);
+        alert("Congratulations! You've matched all the cards!");
+    }
+};
+
 createGrid();
