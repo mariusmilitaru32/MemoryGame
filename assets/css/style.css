@@ -18,6 +18,15 @@ body {
     padding: 20px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* buttons style code */
+
 #start-button {
     background: #282A3A;
     color: #FFF;
@@ -50,12 +59,7 @@ body {
     color:#fc7900;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 20px;
-}
+
 
  /*styling cards code when open and clicked  */
 .card {
@@ -204,3 +208,4 @@ p {
 }
   
 /* End of CodePen window code */
+
