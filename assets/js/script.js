@@ -132,4 +132,15 @@ const gameFinished = () => {
     }
 };
 
+//CodePen code for how to play pop up window
+document.querySelectorAll("#tip-btn").forEach((element) => {
+    element.addEventListener("click", (event) => {
+      event.preventDefault();
+      document.querySelectorAll(".wrap, #tip-btn").forEach((el) => {
+        el.classList.toggle("active");
+      });
+    });
+});
+
+
 createGrid();
