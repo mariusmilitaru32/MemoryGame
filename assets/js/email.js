@@ -4,7 +4,7 @@ function sendMail(contactForm) {
     let startButton = document.getElementById("start-button");
     let confirmationParagraph = document.createElement("p");
     confirmationParagraph.style.display = "none"; 
-    startButton.parentNode.appendChild(confirmationParagraph);
+    startButton.insertAdjacentElement('afterend', confirmationParagraph); 
 
     // Disable the submit button to prevent multiple submissions
     submitBtn.disabled = true;
@@ -30,7 +30,7 @@ function sendMail(contactForm) {
                     confirmationParagraph.textContent = `Redirecting you to home page in ${countdown} seconds!`;
                     countdown--;
                 }
-            }, 1000);
+            }, 1000)
         },
         function(error) {
             console.log("FAILED", error);
