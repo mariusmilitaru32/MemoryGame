@@ -1,4 +1,4 @@
-// the code is from code institute and adapted with redirect and confirmation message
+// the code is from code institute and adapted for email message confirmation and countdown
 function sendMail(contactForm) {
     let submitBtn = document.getElementById("tip-btn");
     let startButton = document.getElementById("start-button");
@@ -17,20 +17,23 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            // Update the confirmation message
             confirmationParagraph.textContent = "Email has been sent successfully! Thank you";
             confirmationParagraph.style.display = "block";
-            // Set up a countdown timer to automatically redirect to the home page after 10 seconds
-            let countdown = 10;
-            let countdownTimer = setInterval(function() {
-                if (countdown === 0) {
-                    clearInterval(countdownTimer);
-                    window.location.href = "./index.html";
-                } else {
-                    confirmationParagraph.textContent = `Redirecting you to home page in ${countdown} seconds!`;
-                    countdown--;
-                }
-            }, 1000)
+
+            // Wait for 3 seconds before starting the countdown
+            setTimeout(function() {
+                // Set up a countdown timer to automatically redirect to the home page after 10 seconds
+                let countdown = 10;
+                let countdownTimer = setInterval(function() {
+                    if (countdown === 0) {
+                        clearInterval(countdownTimer);
+                        window.location.href = "./index.html";
+                    } else {
+                        confirmationParagraph.textContent = `Redirecting you to home page in ${countdown} seconds!`;
+                        countdown--;
+                    }
+                }, 1000);
+            }, 3000);  // 3 seconds delay before the countdown is starting
         },
         function(error) {
             console.log("FAILED", error);
