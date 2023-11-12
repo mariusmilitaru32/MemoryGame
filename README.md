@@ -29,12 +29,12 @@ I built this memory card game as a fun and interactive way to challenge the mind
 ## Features
 
 - ### Start Game
-  - As part of the the memory card game, start game button is part of the gaming interface. It helps users to start the game at any time.
+   As part of the the memory card game, start game button is part of the gaming interface. It helps users to start the game at any time.
  
   ![Navbar](documentation/startbutton.png)
 
 - ### Reset Button
-  - When clicked, it instantly clears the current game progress and starts a new game. This means all the cards are shuffled and placed face down again, and the score, if applicable, is reset to its initial state.
+   When clicked, it instantly clears the current game progress and starts a new game. This means all the cards are shuffled and placed face down again, and the score, if applicable, is reset to its initial state.
   
   ![Navbar](documentation/startbutton.png)
 
@@ -49,3 +49,9 @@ I built this memory card game as a fun and interactive way to challenge the mind
   The “How to Play” button is designed to help players understand the rules and objectives of the memory card game. When this button is clicked, a pop-up window appears on the screen with detailed instructions on how to play the game.
 
   ![Navbar](documentation/howtoplay.png)
+
+- ### Contact Us
+  
+  Contact form can be found on contact page. I have include following required fields: name, email address, message/feedback for the developer and the send button which create a post requested to the emailjs.
+
+  ![contact-forc](documentation/contactpage.png)
