@@ -31,4 +31,6 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - ### Start Game
   - As part of the the memory card game, start game button is part of the gaming interface. It helps users to start the game at any time.
   ![Navbar](documentation/startbutton.png)
-- ### Reset Game
+- ### Reset Button
+  - When clicked, it instantly clears the current game progress and starts a new game. This means all the cards are shuffled and placed face down again, and the score, if applicable, is reset to its initial state.
+  ![Navbar](documentation/startbutton.png)
