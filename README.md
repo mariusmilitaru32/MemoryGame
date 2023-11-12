@@ -11,6 +11,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Index – Table of Contents](#index--table-of-contents)
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
+- [Design](#design)
 
 
 ## User Experience (UX)
@@ -62,3 +63,9 @@ I built this memory card game as a fun and interactive way to challenge the mind
 
   ![EmailConfirmation](documentation/email.png)
   ![Redirect](documentation/redirect.png)
+
+## Design
+  - ### Color scheme
+      As part of designing the site I decided to use orange, red and black as main colours. The pallete has been generated using [coolors.co](https://coolors.co/).
+
+  ![color-pallete](documentation/MemoryGameColors.png)
