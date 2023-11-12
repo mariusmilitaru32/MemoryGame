@@ -11,11 +11,20 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Index – Table of Contents](#index--table-of-contents)
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
-- [Design](#design)
-- [Technologies Used](#technologies-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Bugs](#bugs)
-- [Unfixed bugs](#unfixed-bugs)
-- [Credits](#credits)
-- [Acknowledgements](#acknowledgements)
+
+
+## User Experience (UX)
+
+- ### User stories
+  - #### A. First Time Visitor
+    1. As a first time visitor, I want to easily understand how I to play the game.
+    2. As a first time visitor, I want to be able to easily reset the game.
+    3. As a first time visitor, I want to be able to easily start the game.
+    4. As a first time visitor, I want to be able to easily find how I can get in contact with the business owner.
+   
+   -   #### B. Returning Visitor 
+    1. As a returning visitor, I want to be able to send a quick feedback to the business owner.
+    2. As a returning visitor, I want to be able to remember how I can play the game.
+   
+## Features
+
