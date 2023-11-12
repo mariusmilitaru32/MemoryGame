@@ -37,7 +37,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
   - When clicked, it instantly clears the current game progress and starts a new game. This means all the cards are shuffled and placed face down again, and the score, if applicable, is reset to its initial state.
   
   ![Navbar](documentation/startbutton.png)
-  
+
 - ### Cards grid
   The memory card game is set up on a grid of 4x4, making a total of 16 cards. Each card is a tile that the player can flip by clicking on it. The cards are arranged randomly on the grid at the start of each game.
   There are 8 pairs of matching cards, and each pair has a unique design. The challenge for the player is to remember the locations of each pair as they flip the cards.
@@ -46,3 +46,6 @@ I built this memory card game as a fun and interactive way to challenge the mind
   ![Navbar](documentation/cardsgrid.png)
 
 - ### How to Play
+  The “How to Play” button is designed to help players understand the rules and objectives of the memory card game. When this button is clicked, a pop-up window appears on the screen with detailed instructions on how to play the game.
+
+  ![Navbar](documentation/howtoplay.png)
