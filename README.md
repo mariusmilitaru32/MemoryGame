@@ -34,3 +34,12 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - ### Reset Button
   - When clicked, it instantly clears the current game progress and starts a new game. This means all the cards are shuffled and placed face down again, and the score, if applicable, is reset to its initial state.
   ![Navbar](documentation/startbutton.png)
+- ### Cards grid
+  The memory card game is set up on a grid of 4x4, making a total of 16 cards. Each card is a tile that the player can flip by clicking on it. The cards are arranged randomly on the grid at the start of each game.
+  There are 8 pairs of matching cards, and each pair has a unique design. The challenge for the player is to remember the locations of each pair as they flip the cards.
+  When a card is clicked, it flips over to reveal its design. The goal of the game is to find all 8 pairs by remembering where each card is located. When the player flips over two cards with the same design in succession, it’s a match, and those cards remain face up. If the cards don’t match, they flip back over.
+
+  ![Navbar](documentation/cardsgrid.png)
+
+- ### How to Play
+  
