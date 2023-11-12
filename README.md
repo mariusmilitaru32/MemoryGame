@@ -28,3 +28,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
    
 ## Features
 
+- ### Start Game
+  - As part of the the memory card game, start game button is part of the gaming interface. It helps users to start the game at any time.
+  ![Navbar](documentation/startbutton.png)
+- ### Reset Game
