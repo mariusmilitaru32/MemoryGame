@@ -75,14 +75,9 @@ I built this memory card game as a fun and interactive way to challenge the mind
 
 - ### Wireframes 
    - Home Page <br>
-     [Home page desktop](documentation/index-desktop.png)<br>
-     [Home page mobile](documentation/index-mobile.png)
-   - Gallery page <br>
-     [Gallery page desktop](documentation/gallery-desktop.png)<br>
-     [Gallery page mobile](documentation/gallery-mobile.png)
-   - Contact page <br>
-     [Contact page desktop](documentation/contact.desktop.png)<br>
-     [Contact page mobile](documentation/contact-mobile.png)
-   - Submitted page <br>
-     [Submitted page desktop](documentation/submitted-wf-desktop.png)<br>
-     [Submitted page mobile](documentation/submitted-wf-mobile.png)
+     [Home page desktop](documentation/wireframes/IndexDesktop.png.png)<br>
+     [Home page mobile](documentation//wireframes/IndexMobile.png)
+   - How To Play <br>
+     [How To Play Desktop](documentation/wireframes/HowToPlayDesktop.png)<br>
+     [How to Play Mobile](documentation/wireframes/HowToPlayMobile.png)
+   
