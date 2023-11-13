@@ -13,6 +13,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Features](#features)
 - [Design](#design)
 - [Technologies Used](#technologies-used)
+- [Testing](#testing)
 
 
 ## User Experience (UX)
@@ -97,3 +98,6 @@ I built this memory card game as a fun and interactive way to challenge the mind
     -   [Visual Studio Code](https://code.visualstudio.com/) was used as IDE editor.
     -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
     -   [EmailJs:](https://www.emailjs.com/) was used to be able to send messages   through contact form. 
+  
+## Testing
+  - ### For testing please refer to the [TESTING.md](/TESTING.md)
