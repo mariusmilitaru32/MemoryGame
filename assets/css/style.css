@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(325deg,  #6a040f 0%,#d00000 50%,#faa307 100%);
     display: flex;
     justify-content: center;
@@ -216,7 +217,7 @@ form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
   color:rgb(7, 6, 6);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
