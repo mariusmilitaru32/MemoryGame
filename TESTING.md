@@ -26,3 +26,12 @@
 | As a returning visitor, I want to be able to send a quick feedback to the business owner.                   | ![screenshot](documentation/contactpage.png)       |
 | As a returning visitor, I want to be able to remember how I can play the game.                              | ![screenshot](documentation/tests/HowToPlayUser.png)|
 
+ - ### Lighthouse test
+    
+    | Page      | Device  | Screenshot                                                    | Notes                                                                                       |
+   | --------- | ------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+   | Home      | Mobile  | ![screenshot](documentation/tests/LighthouseIndexMobile.png)  |                                                                                              |
+   | Hone      | Desktop | ![screenshot](documentation/tests/LighthouseIndexDesktop.png) |                                                                                              |
+   | Contact   | Mobile  | ![screenshot](documentation/tests/LighthouseContactMobile.png)|                                                                                              |
+   | Contact   | Desktop | ![screenshot](documentation/tests/LighthouseContactDekstop.png)|                                                                                              |
+
