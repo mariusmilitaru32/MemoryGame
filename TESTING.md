@@ -19,10 +19,10 @@
   
 | User Story                                                                                                  | Screenshot                                         |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| As a first time visitor, I want to easily understand how I to play the game.                                | ![screenshot](documentation/howtoplay.png)         |
+| As a first time visitor, I want to easily understand how I to play the game.                                | ![screenshot](documentation/tests/HowToPlayUser.png)|
 | As a first time visitor, I want to be able to easily reset the game.                                        | ![screenshot](documentation/startbutton.png)       |
 | As a first time visitor, I want to be able to easily start the game.                                        | ![screenshot](documentation/startbutton.png)       |
 | As a first time visitor, I want to be able to easily find how I can get in contact with the business owner. | ![screenshot](documentation/contactpage.png)       |
-| As a returning visitor, I want to be able to send a quick feedback to the business owner.                   | ![screenshot](documentation/contact-form.png)      |
-| As a returning visitor, I want to be able to remember how I can play the game.                              | ![screenshot](documentation/homepage-products.png) |
+| As a returning visitor, I want to be able to send a quick feedback to the business owner.                   | ![screenshot](documentation/contactpage.png)       |
+| As a returning visitor, I want to be able to remember how I can play the game.                              | ![screenshot](documentation/tests/HowToPlayUser.png)|
 
