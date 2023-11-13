@@ -69,3 +69,20 @@ I built this memory card game as a fun and interactive way to challenge the mind
       As part of designing the site I decided to use orange, red and black as main colours. The pallete has been generated using [coolors.co](https://coolors.co/).
 
   ![color-pallete](documentation/MemoryGameColors.png)
+
+- ### Typography
+  - Google Fonts were used to import Roboto into style.css
+
+- ### Wireframes 
+   - Home Page <br>
+     [Home page desktop](documentation/index-desktop.png)<br>
+     [Home page mobile](documentation/index-mobile.png)
+   - Gallery page <br>
+     [Gallery page desktop](documentation/gallery-desktop.png)<br>
+     [Gallery page mobile](documentation/gallery-mobile.png)
+   - Contact page <br>
+     [Contact page desktop](documentation/contact.desktop.png)<br>
+     [Contact page mobile](documentation/contact-mobile.png)
+   - Submitted page <br>
+     [Submitted page desktop](documentation/submitted-wf-desktop.png)<br>
+     [Submitted page mobile](documentation/submitted-wf-mobile.png)
