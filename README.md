@@ -16,6 +16,8 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Bugs](#bugs)
+- [Unfixed bugs](#unfixed-bugs)
 
 
 ## User Experience (UX)
@@ -127,3 +129,10 @@ I built this memory card game as a fun and interactive way to challenge the mind
 ## Credits
   - CodeInstitute for the EmailJs code
   - [CodePen](https://codepen.io/) for the how to play pop up window and contact form 
+
+## Bugs
+  - First bug discovered in the building process was when the game was finished the timmer was not stopped. To fix this bug I had to add the global method "clearInterval(timerInterval);" to the gameFinished function.
+  - The second bug that was discovered involved the cards being clickable even when the game had not started. To address this issue, I created a boolean variable called 'gameStarted.' When the start button is clicked, the 'startGame()' function sets 'gameStarted' to true. The 'onCardClick()' function checks if 'gameStarted' is true before allowing the cards to flip.
+
+## Unfixed bugs
+ - There are not any bugs left that I am aware of.
