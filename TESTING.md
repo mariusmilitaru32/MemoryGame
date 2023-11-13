@@ -7,9 +7,9 @@
 
 - ### Browser Compatibility
   - Testing has been carried out on the following browsers with no issues:
-    - Chrome Version 111.0.5563.146 (Relase date: 2023-03-28) (64-bit)
-    - Firefox Version 109.0 (Relase date: January 17, 2023) (64-bit)
-    - Edge Version 111.0.1661.54 (Relase date: March 24, 2023) (64-bit)
+    - Chrome Version 119.0.6045.124 (Official Build) (64-bit)
+    - Firefox Version 119.0.1 (64-bit)
+    - Edge Version 119.0.2151.58 (Official build) (64-bit)
   - No issues/warnning are been reported in browser console output:
    - ![Index page console](documentation/tests/IndexPageConsole.png)
    - ![Index page console](documentation/tests/ContactPageConsole.png) 
