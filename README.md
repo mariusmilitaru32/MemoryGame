@@ -96,3 +96,4 @@ I built this memory card game as a fun and interactive way to challenge the mind
     -   [GitHub:](https://github.com/) was used as the repository for the projects code after being pushed from Git.
     -   [Visual Studio Code](https://code.visualstudio.com/) was used as IDE editor.
     -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
+    -   [EmailJs:](https://www.emailjs.com/) was used to be able to send messages   through contact form. 
