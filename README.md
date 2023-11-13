@@ -15,6 +15,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
+- [Credits](#credits)
 
 
 ## User Experience (UX)
@@ -123,6 +124,6 @@ I built this memory card game as a fun and interactive way to challenge the mind
       - Log in to GitHub and locate the [GitHub Repository](https://github.com/mariusmilitaru32/MemoryGame.git)
       - At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
       - Once clicked, you should now have a copy of the original repository in your own GitHub account!
-- ## Credits
+## Credits
   - CodeInstitute for the EmailJs code
   - [CodePen](https://codepen.io/) for the how to play pop up window and contact form 
