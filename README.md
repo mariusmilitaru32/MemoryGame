@@ -12,6 +12,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
 - [Design](#design)
+- [Technologies Used](#technologies-used)
 
 
 ## User Experience (UX)
@@ -83,3 +84,15 @@ I built this memory card game as a fun and interactive way to challenge the mind
    - Contact Page <br>
      [Contact page desktop](documentation/wireframes/ContactDesktop.png)<br>
      [Contact page mobile](documentation//wireframes/ContactMobile.png)
+
+## Technologies Used
+  - ### Languages Used
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  - ### Frameworks, Libraries and Programs Used
+    -   [Google Fonts:](https://fonts.google.com/) was used to import the 'Roboto' font into the style.css file 
+    -   [Git:](https://git-scm.com/) was used for version control by utilising VSCode terminal to commit to Git and Push to GitHub.
+    -   [GitHub:](https://github.com/) was used as the repository for the projects code after being pushed from Git.
+    -   [Visual Studio Code](https://code.visualstudio.com/) was used as IDE editor.
+    -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
