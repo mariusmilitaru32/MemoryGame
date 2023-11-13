@@ -117,4 +117,12 @@ I built this memory card game as a fun and interactive way to challenge the mind
     - Change the current working directory to the one where you want the cloned directory
     - In your IDE Terminal, type the following command to clone my repository: "git clone https://github.com/mariusmilitaru32/MemoryGame.git".
   - ### Forking
-    - 
+    By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+    You can fork this repository by using the following steps:
+    
+      - Log in to GitHub and locate the [GitHub Repository](https://github.com/mariusmilitaru32/MemoryGame.git)
+      - At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+      - Once clicked, you should now have a copy of the original repository in your own GitHub account!
+- ## Credits
+  - CodeInstitute for the EmailJs code
+  - [CodePen](https://codepen.io/) for the how to play pop up window and contact form 
