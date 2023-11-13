@@ -14,6 +14,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Design](#design)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+- [Deployment](#deployment)
 
 
 ## User Experience (UX)
@@ -101,3 +102,19 @@ I built this memory card game as a fun and interactive way to challenge the mind
   
 ## Testing
   - ### For testing please refer to the [TESTING.md](/TESTING.md)
+
+## Deployment
+  - ### How this site was deployed
+    - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+    - Any changes pushed to the master branch will take effect on the live project
+  - ### Cloning
+    - Go to the [GitHub repository](https://github.com/mariusmilitaru32/MemoryGame) 
+    - Locate the Code button above the list of files and click it
+    - Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+    - Open Git Bash or Terminal
+    - Change the current working directory to the one where you want the cloned directory
+    - In your IDE Terminal, type the following command to clone my repository: "git clone https://github.com/mariusmilitaru32/MemoryGame.git".
+  - ### Forking
+    - 
