@@ -18,6 +18,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 - [Credits](#credits)
 - [Bugs](#bugs)
 - [Unfixed bugs](#unfixed-bugs)
+- [Acknowledgements](#acknowledgements)
 
 
 ## User Experience (UX)
@@ -136,3 +137,6 @@ I built this memory card game as a fun and interactive way to challenge the mind
 
 ## Unfixed bugs
  - There are not any bugs left that I am aware of.
+
+## Acknowledgements
+  -I would like to thank [Codeinstitute](https://codeinstitute.net/) slack community for helping me during my studies and project creation.
