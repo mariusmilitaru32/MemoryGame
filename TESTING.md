@@ -48,3 +48,16 @@
    - [Samsung S20 Ultra Screenshoot](documentation/tests/Galaxys20Ultra.png)
    - [Surface Pro](documentation/tests/SurfacePro.png)
    - [My mobile phone](documentation/tests/GalaxyNote20Ultra.PNG)
+
+- ### Manual Testing
+| Page |User Action |Expected Results  | Pass/Fail | Comments | 
+| :---:   | :---: | :---: | :---: | :---: |
+| Home Page | Click on Start button| Start the game including the timer| Pass
+|           | Click on Reset during game| Flip back the cards, shuffle them, and reset the moves and timer.| Pass
+|           | Click on HowToPlay button| Open a window with game instructions| Pass
+|           | Click on Contact button| Redirect to contact page| Pass
+|           | Click on playing cards| Cards are being flipped(No more than 2 cards at a time.), and the moves are increasing.| Pass
+|           | All cards have been matched| The timer is stopped, and the alert is displayed.| Pass
+|Contact Page| Click on Home Button| Redirect to home page| Pass
+|Contact Page| One field in the contact form is not filled.| Not able to submit the form| Pass
+|Contact Page| Submit the form| The confirmation message is displayed and after 3 seconds, the redirect countdown starts.| Pass
