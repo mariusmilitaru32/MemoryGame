@@ -65,5 +65,7 @@ Back to [README.md](/README.md)
 |            | One field in the contact form is not filled.| Not able to submit the form| Pass
 |            | Submit the form| The confirmation message is displayed and after 3 seconds, the redirect countdown starts.| Pass
 |            | Pressing Submit button multiple times when submiting the form| Submit button disabled to prevent multiple form submision| Pass
+| 404 Page   | Trying to acces a nonexisting page| Automatically redirect to home page in 10 seconds| Pass
+
 
 Back to [README.md](/README.md)
