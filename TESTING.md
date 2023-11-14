@@ -46,7 +46,7 @@ Back to [README.md](/README.md)
    | Contact   | Desktop | ![screenshot](documentation/tests/LighthouseContactDekstop.png)|                                                                                             |
 
 - ### Responsiveness
-  The website has been tested on different screen size using Google Chrome developer tool simulating devices like Iphone 14 Pro Max, Samsung S20 Ultra and Surface Pro 7.
+  The website has been tested on different screen sizes using Google Chrome developer tool simulating devices like Iphone 14 Pro Max, Samsung S20 Ultra and Surface Pro 7.
    - [Iphone 14 Pro Max DevTool Screenshoot](documentation/tests/Iphone14ProMax.png)
    - [Samsung S20 Ultra Screenshoot](documentation/tests/Galaxys20Ultra.png)
    - [Surface Pro](documentation/tests/SurfacePro.png)
