@@ -4,11 +4,11 @@
   - [HTML results contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariusmilitaru32.github.io%2FMemoryGame%2Fcontact.html): two warning from EmailJs script
   - CSS Validator
   - [CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariusmilitaru32.github.io%2FMemoryGame%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en): no errors/warnings
-  - JavaScript JsLint Tests
-| File | Screenshot | Notes |
-| --- | --- | --- |
-| script.js | ![screenshot](documentation/tests/scriptJsLint.png) | 3 warning, 2 for variables declared inside the loop and one for the arrow function.|
-| email.js  | ![screenshot](documentation/tests/emailjsJsLint.png) | Three options have been selected in JSLint to include the browser environment, allow console.log(), and handle long lines. Afterward, three warnings are displayed: two from the emailjs code and one regarding the use of the JavaScript decrement operator (--) in the countdown. I couldn't find an explanation for why it's flagged as a warning. |
+  
+  JavaScript JsLint Tests
+
+   - script.js  ![screenshot](documentation/tests/scriptJsLint.png)  3 warning, 2 for variables declared inside the loop and one for the arrow function. <br><br>
+   - email.js   ![screenshot](documentation/tests/emailjsJsLint.png)  Three options have been selected in JSLint to include the browser environment, allow console.log(), and handle long lines. Afterward, three warnings are displayed: two from the emailjs code and one regarding the use of the JavaScript decrement operator (--) in the countdown. I couldn't find an explanation for why it's flagged as a warning. 
 
 
 
