@@ -20,7 +20,7 @@ Back to [README.md](/README.md)
     - Chrome Version 119.0.6045.124 (Official Build) (64-bit)
     - Firefox Version 119.0.1 (64-bit)
     - Edge Version 119.0.2151.58 (Official build) (64-bit)
-  - No issues/warnning are been reported in browser console:
+   - No issues/warnings are being reported in the browser console.:
    - ![Index page console](documentation/tests/IndexPageConsole.png)
    - ![Index page console](documentation/tests/ContactPageConsole.png)
 

@@ -60,7 +60,7 @@ I built this memory card game as a fun and interactive way to challenge the mind
 
 - ### Contact Us
   
-  Contact form can be found on contact page. I have included following required fields: name, email address, message/feedback for the developer and the send button which create a post requested to the emailjs.
+  A contact form can be found on the contact page. I have included the following required fields: name, email address, message/feedback for the developer and the send button which creates a post to EmailJs.
 
   ![ContactUs](documentation/contactpage.png)
 
