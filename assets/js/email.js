@@ -3,8 +3,8 @@ function sendMail(contactForm) {
     let submitBtn = document.getElementById("tip-btn");
     let startButton = document.getElementById("start-button");
     let confirmationParagraph = document.createElement("p");
-    confirmationParagraph.style.display = "none"; 
-    startButton.insertAdjacentElement('afterend', confirmationParagraph); 
+    confirmationParagraph.style.display = "none";
+    startButton.insertAdjacentElement("afterend", confirmationParagraph);
 
     // Disable the submit button to prevent multiple submissions
     submitBtn.disabled = true;

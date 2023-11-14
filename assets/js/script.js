@@ -107,7 +107,7 @@ const updateTimer = () => {
     timerDisplay.textContent = `Time: ${currentTime}s`;
 };
 
-// function to reset the game 
+// function to reset the game
 const resetGame = () => {
     gameStarted = false;
     generateCardValues();
