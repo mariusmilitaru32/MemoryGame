@@ -28,10 +28,16 @@
 
  - ### Lighthouse test
     
-    | Page      | Device  | Screenshot                                                    | Notes                                                                                       |
+   | Page      | Device  | Screenshot                                                    | Notes                                                                                        |
    | --------- | ------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
    | Home      | Mobile  | ![screenshot](documentation/tests/LighthouseIndexMobile.png)  |                                                                                              |
    | Hone      | Desktop | ![screenshot](documentation/tests/LighthouseIndexDesktop.png) |                                                                                              |
    | Contact   | Mobile  | ![screenshot](documentation/tests/LighthouseContactMobile.png)|                                                                                              |
-   | Contact   | Desktop | ![screenshot](documentation/tests/LighthouseContactDekstop.png)|                                                                                              |
+   | Contact   | Desktop | ![screenshot](documentation/tests/LighthouseContactDekstop.png)|                                                                                             |
 
+- ### Responsiveness
+  The website has been tested on different screen size using Google Chrome developer tool simulating devices like Iphone 14 Pro Max, Samsung S20 Ultra and Surface Pro 7.
+   - [Iphone 14 Pro Max DevTool Screenshoot](documentation/tests/Iphone14ProMax.png)
+   - [Samsung S20 Ultra Screenshoot](documentation/tests/Galaxys20Ultra.png)
+   - [Surface Pro](documentatation/tests/SurfacePro.png)
+   - [My mobile phone](documentation/tests/GalaxyNote20Ultra.PNG)
