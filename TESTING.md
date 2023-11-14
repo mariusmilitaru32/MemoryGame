@@ -1,3 +1,6 @@
+Back to [README.md](/README.md)
+
+
 - ### Validator Testing
   - HTML Validator
   - [HTML results home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariusmilitaru32.github.io%2FMemoryGame%2Findex.html): no errors/warnings
@@ -59,5 +62,8 @@
 |           | Click on playing cards| Cards are being flipped(No more than 2 cards at a time.), and the moves are increasing.| Pass
 |           | All cards have been matched| The timer is stopped, and the alert is displayed.| Pass
 |Contact Page| Click on Home Button| Redirect to home page| Pass
-|Contact Page| One field in the contact form is not filled.| Not able to submit the form| Pass
-|Contact Page| Submit the form| The confirmation message is displayed and after 3 seconds, the redirect countdown starts.| Pass
+|            | One field in the contact form is not filled.| Not able to submit the form| Pass
+|            | Submit the form| The confirmation message is displayed and after 3 seconds, the redirect countdown starts.| Pass
+|            | Pressing Submit button multiple times when submiting the form| Submit button disabled to prevent multiple form submision| Pass
+
+Back to [README.md](/README.md)
