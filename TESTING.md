@@ -9,9 +9,9 @@ Back to [README.md](/README.md)
   - [CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariusmilitaru32.github.io%2FMemoryGame%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en): no errors/warnings
   
   JavaScript JsLint Tests
-
+   - count.js ![screenshot](documentation/tests/countJsLint.png) Two options have been selected for JavaScript test, first one to ignore long line and the other one to have browser environment. 1 warning left because decrement operator (--). I couldn't find an explanation for why it's flagged as a warning. 
    - script.js  ![screenshot](documentation/tests/scriptJsLint.png)  3 warning, 2 for variables declared inside the loop and one for the arrow function. <br><br>
-   - email.js   ![screenshot](documentation/tests/emailjsJsLint.png)  Three options have been selected in JSLint to include the browser environment, allow console.log(), and handle long lines. Afterward, three warnings are displayed: two from the emailjs code and one regarding the use of the JavaScript decrement operator (--) in the countdown. I couldn't find an explanation for why it's flagged as a warning. 
+   - email.js   ![screenshot](documentation/tests/emailjsJsLint.png)  Three options have been selected in JSLint to include the browser environment, allow console.log(), and handle long lines. Afterward, two warnings are displayed from the emailjs code.
 
 
 
