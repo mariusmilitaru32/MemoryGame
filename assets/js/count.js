@@ -1,9 +1,9 @@
 function redirectToHomePage() {
     var seconds = 10;
     // Display a countdown message before redirecting
-    var countdown = setInterval(function() {
+    var countdown = setInterval(function () {
         document.getElementById("countdown").innerHTML = "Redirecting you to home page in " + seconds + " seconds...";
-        seconds--;
+        seconds -= 1;
 
         // When the countdown is over, redirect to the home page
         if (seconds < 0) {

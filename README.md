@@ -64,13 +64,14 @@ I built this memory card game as a fun and interactive way to challenge the mind
 
   ![ContactUs](documentation/contactpage.png)
 
-- ### Contact Form confirmation and return to home page
+- ### Contact Form confirmation 
   
-  Emailjs has been integrated into the contact form. After the post response is received, a message is displayed to the user to confirm that the email has been sent. Also, an automatic redirect has been implemented after the email-sent message is displayed.
+  Emailjs has been integrated into the contact form. After the post response is received, a message is displayed to the user to confirm that the email has been sent.
 
   ![EmailConfirmation](documentation/email.png)
-  ![Redirect](documentation/redirect.png)
-
+- ### Finished Game Notification.
+  After the player finishes the game, an alert is shown to the user.
+ 
 ## Design
   - ### Color scheme
       As part of designing the site I decided to use orange, red and black as main colours. The pallete has been generated using [coolors.co](https://coolors.co/).
