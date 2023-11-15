@@ -63,7 +63,7 @@ Back to [README.md](/README.md)
 |           | All cards have been matched| The timer is stopped, and the alert is displayed.| Pass
 |Contact Page| Click on Home Button| Redirect to home page| Pass
 |            | One field in the contact form is not filled.| Not able to submit the form| Pass
-|            | Submit the form| The confirmation message is displayed and after 3 seconds, the redirect countdown starts.| Pass
+|            | Submit the form| The confirmation message is displayed and the form is submitted | Pass
 |            | Pressing Submit button multiple times when submiting the form| Submit button disabled to prevent multiple form submision| Pass
 | 404 Page   | Trying to acces a nonexisting page| Automatically redirect to home page in 10 seconds| Pass
 
