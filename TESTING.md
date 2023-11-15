@@ -67,5 +67,7 @@ Back to [README.md](/README.md)
 |            | Pressing Submit button multiple times when submiting the form| Submit button disabled to prevent multiple form submision| Pass
 | 404 Page   | Trying to acces a nonexisting page| Automatically redirect to home page in 10 seconds| Pass
 
+- ### Automated testing
+  - I thought about using Jest to test my project, but I decided to manually test it this time. I want to get better at using Jest, so I'll practice it separately on another project with a step-by-step approach. In this project, I kept rushing into the code, so I realized I need to slow down and practice with Jest before using it on an important project. 
 
 Back to [README.md](/README.md)
